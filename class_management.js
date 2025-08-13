@@ -119,7 +119,7 @@ app.get('/', (req, res) => {
         </head>
         <body>
              <div class="card">
-                <div class="icon">⚡</div>
+                
                  <h1>Class Management</h1>
                  <p>Our site is getting a fresh update.<br/>Thank you for your patience!</p>
                 <div class="subtext">&mdash; Dev Team</div>
@@ -132,6 +132,7 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
 
