@@ -65,7 +65,7 @@ app.get('/', (req, res) => {
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <title>Under Maintenance</title>
+            <title>class management</title>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
             <style>
                 body {
@@ -132,5 +132,6 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
