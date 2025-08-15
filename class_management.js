@@ -12,7 +12,7 @@ let users = [
 ];
 
 
-app.get('/user', (req, res) => {
+app.post('/user', (req, res) => {
     const{lastName,firstName,section,status} = req.body;
 
     const userIndex= users.findIndex(user => user.lastName === lastName && user.firstName === firstName);
